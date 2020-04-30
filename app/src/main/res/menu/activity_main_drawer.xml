@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile" />
+
+    </group>
+    <item
+        android:icon="@drawable/login"
+        android:title="@string/LogIn_As">
+        <menu>
+            <item
+                android:id="@+id/nav_adminlogin"
+                android:icon="@drawable/admin"
+                android:title="@string/Admin_LogIn" />
+
+            <item
+                android:id="@+id/nav_studentlogin"
+                android:icon="@drawable/student"
+                android:title="@string/Student_LogIn" />
+
+            <item
+                android:id="@+id/nav_teacherlogin"
+                android:icon="@drawable/teacher"
+                android:title="@string/Teacher_Login" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/Activity">
+        <menu>
+            <item
+                android:id="@+id/nav_whatsnew"
+                android:icon="@drawable/whatsnew2"
+                android:title="@string/whats_new" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="@string/activity_logout" />
+        </menu>
+
+    </item>
+</menu>

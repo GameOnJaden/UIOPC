@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.firstapp.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.firstapp.myapplication.ui.gallery.GalleryFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_adminlogin"
+        android:name="com.firstapp.myapplication.ui.login.AdminFragment"
+        android:label="Admin"
+        tools:layout="@layout/fragment_admin" />
+
+    <fragment
+        android:id="@+id/nav_studentlogin"
+        android:name="com.firstapp.myapplication.ui.login.StudentFragment"
+        android:label="Student"
+        tools:layout="@layout/fragment_student" />
+
+    <fragment
+        android:id="@+id/nav_teacherlogin"
+        android:name="com.firstapp.myapplication.ui.login.TeacherFragment"
+        android:label="Teacher"
+        tools:layout="@layout/fragment_teacher" />
+
+    <fragment
+        android:id="@+id/nav_whatsnew"
+        android:name="com.firstapp.myapplication.ui.whats_new.WhatsNew"
+        android:label="Whats_New!"
+        tools:layout="@layout/fragment_whatsnew" />
+
+</navigation>

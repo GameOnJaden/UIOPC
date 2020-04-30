@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PlacementCell</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Netaji Subhash Engineering College</string>
+    <string name="nav_header_subtitle">www.nsec.ac.in</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="LogIn_As">LogIn_As</string>
+    <string name="Student_LogIn">Student</string>
+    <string name="Teacher_Login">Teacher</string>
+    <string name="Admin_LogIn">Admin</string>
+
+    <string name="Activity">Activity</string>
+    <string name="activity_logout">LogOut</string>
+
+    <string name="username">Username</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">login</string>
+    <string name="register_signup">Register/SignUp</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="profile">Profile</string>
+    <string name="admin_register">Register</string>
+    <string name="student_register">Register</string>
+    <string name="teacher_register">Register</string>
+    <string name="whats_new">Whats_New!</string>
+    <string name="wait_for_something_new">Wait For SomeThing New !!</string>
+
+
+</resources>
